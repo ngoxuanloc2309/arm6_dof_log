@@ -515,5 +515,13 @@
   </joint>
 </ros2_control>
 
+ <gazebo>
+  <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+    <robotParam>robot_description</robotParam>
+    <robot_param_node>robot_state_publisher</robot_param_node>
+    <controlPeriod>0.001</controlPeriod> -->
+    <parameters>/home/logan/arm6_dof_log/src/my_robot/config/logan_controllers.yaml</parameters>   
+  </plugin>
+ </gazebo>
 
 </robot>
